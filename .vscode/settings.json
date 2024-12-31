@@ -1,0 +1,28 @@
+{
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": "explicit"
+    },
+    "eslint.options": {
+        "extension": [
+            ".html",
+            ".js",
+            ".ts",
+            ".tsx",
+        ]
+    },
+    "eslint.validate": [
+        "javascript",
+        "typescript",
+        "typescriptreact",
+        "html"
+    ],
+    "files.eol": "auto",
+    "eslint.format.enable": true,
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+    "notebook.defaultFormatter": "dbaeumer.vscode-eslint",
+    "eslint.codeActionsOnSave.rules": null,
+    "[typescript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    }
+}
